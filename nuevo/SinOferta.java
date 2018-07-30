@@ -25,7 +25,7 @@ public class SinOferta extends Producto implements Calculable, Mostrable {
 	}
 	public float calcularTotal() {
 		setTotal(getPrec() * getCant());
-		return Total;
+		return getTotal;
 	}
 
 	public void leerProducto(SinOferta pSO) {
