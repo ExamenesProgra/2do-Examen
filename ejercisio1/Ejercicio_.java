@@ -77,7 +77,7 @@ public class Ejercicio_ {
                       resp = JOptionPane.showInputDialog("Desea registrtar un producto");
 				}
 
-			//while ((("S".equals(resp)) ||  ("s".equals(resp)))  &&  (i < maxProd));
+			while ((("S".equals(resp)) ||  ("s".equals(resp)))  &&  (i < maxProd)) {
 			    do {
 			    	cad = JOptionPane.showInputDialog(null,"Introduzca el codigo del producto:");
 			    	v = new Validar(cad);
@@ -144,6 +144,7 @@ public class Ejercicio_ {
 			  
 			  
 			  resp = JOptionPane.showInputDialog(null, "Desea incluir otra");
+			}
 			
 			break;
 		      case 2:
